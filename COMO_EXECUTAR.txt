@@ -1,0 +1,28 @@
+FLASHCLIP 2026/2 — DEMONSTRAÇÃO DE PHP
+
+O QUE ESTE PROJETO FAZ
+Recebe o nome e a idade de um participante, valida os campos e mostra
+uma mensagem de boas-vindas. Não grava dados em banco de dados.
+
+OPÇÃO 1 — COM PHP INSTALADO
+1. Abra a pasta FLASHCLIP_PHP_Demo no VS Code.
+2. Abra o terminal nessa pasta.
+3. Digite: php -S localhost:8000
+4. No navegador, abra: http://localhost:8000
+5. Para parar o servidor, pressione Ctrl+C no terminal.
+
+OPÇÃO 2 — COM XAMPP
+1. Copie a pasta FLASHCLIP_PHP_Demo para htdocs do XAMPP.
+2. Inicie o Apache no painel do XAMPP.
+3. Abra http://localhost/FLASHCLIP_PHP_Demo/ no navegador.
+
+ROTEIRO DE DEMONSTRAÇÃO
+1. Mostrar o formulário sem preencher.
+2. Enviar nome e idade; mostrar a mensagem.
+3. Abrir index.php e localizar: $_POST, $nome, $idade e if.
+4. Trocar a mensagem de boas-vindas e recarregar a página.
+5. Testar uma idade inválida e mostrar a validação.
+
+OBSERVAÇÃO
+Para funcionar, é necessário um servidor com PHP. Abrir index.php
+clicando duas vezes no arquivo não executa o PHP no navegador.
